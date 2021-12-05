@@ -1,0 +1,4 @@
+For dynamic values you can change the following lines:
+
+-> Page/Components/Profile.js : Add dynamic name
+-> Page/Components/Profile.js : Add dynamic image

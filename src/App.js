@@ -1,24 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import TimeTrackerPage from "./Pages/TimeTrackerDashboard/TimeTrackerPage";
+import GlobalStyle from "./GlobalStyle";
+import { Switch, Route, Redirect } from "react-router";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <GlobalStyle />
+      <Route exact path="/timetracker" component={TimeTrackerPage} />
+      <Route exact path="/timetracker/*" component={TimeTrackerPage} />
+
+      <Route exact path="/">
+        <Redirect to="/timetracker" />
+      </Route>
+    </>
   );
 }
 
