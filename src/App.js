@@ -1,7 +1,7 @@
 import "./App.css";
-import TimeTrackerPage from "./Pages/TimeTrackerDashboard/TimeTrackerPage";
+import TimeTrackerPage from "./Pages/TimeTrackerPage";
 import GlobalStyle from "./GlobalStyle";
-import { Switch, Route, Redirect } from "react-router";
+import { Route, Redirect } from "react-router";
 function App() {
   return (
     <>

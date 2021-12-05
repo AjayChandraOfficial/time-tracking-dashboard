@@ -105,7 +105,7 @@ const Profile = (props) => {
           <UserDetailsContainer>
             <p>Report for</p>
             {/* Add Dynamic name here */}
-            <h2>Kateryna Perepeliak</h2>
+            <h2>Ajay Chandra</h2>
           </UserDetailsContainer>
         </ProfileFrontContainer>
         <TextContainer>

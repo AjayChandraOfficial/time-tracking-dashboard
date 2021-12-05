@@ -1,9 +1,9 @@
 import React from "react";
 import styled, { ThemeProvider } from "styled-components";
 import { theme } from "./themes";
-import Profile from "./components/Profile";
+import Profile from "../components/Profile";
 import { data } from "./data";
-import StatCard from "./components/StatCard";
+import StatCard from "../components/StatCard";
 import { useState } from "react";
 const Container = styled.div`
   width: 100vw;
